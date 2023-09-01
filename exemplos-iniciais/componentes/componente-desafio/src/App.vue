@@ -8,10 +8,11 @@
 </template>
 
 <script>
-import SideDrawer from './components/SideDrawer.vue'
-import NavBar from './components/NavBar.vue'
-import Carousel from './components/Carousel.vue'
-import Footer from './components/Footer.vue'
+// @/ no caminho busca sempre o caminho global, a partir de "src" no projeto
+import SideDrawer from '@/components/template/SideDrawer.vue'
+import NavBar from '@/components/template/NavBar.vue'
+import Carousel from '@/components/widgets/Carousel.vue'
+import Footer from '@/components/template/Footer.vue'
 
 export default {
   components: {
